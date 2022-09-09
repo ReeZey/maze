@@ -1,32 +1,13 @@
-#pragma once
+﻿#pragma once
 
-#include <SDL.h>
-#include <cstdint>
+int MAPSIZE = 200;
+int SHUFFLE = 10;
+int WINDOW_WIDTH = 800;
 
-struct Cell {
-	uint16_t x, y;
-	bool visited;
-	Cell* prev;
-	Cell* next;
+int CELLSIZE;
 
-	Cell() {
-		x = 0;
-		y = 0;
-		visited = false;
-		prev = nullptr;
-		next = nullptr;
-	}
+SDL_Renderer* renderer;
 
-	void UpdateData(int xPos, int yPos) {
-		x = xPos;
-		y = yPos;
-
-		visited = false;
-	}
-};
-
-bool Reset();
-bool Render();
-void Bridge(Cell* cell, Cell* cell2);
-void UpdateCell(Cell* cell);
-Cell* getNearby(Cell* cell);
+SDL_Event event;
+SDL_Window* window;
+SDL_Surface* s;

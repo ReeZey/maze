@@ -1,0 +1,28 @@
+﻿  main.cpp
+C:\Users\jag\source\repos\test\test\main.cpp(48,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(62,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(63,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(46,18): warning C4101: 's': unreferenced local variable
+C:\Users\jag\source\repos\test\test\main.cpp(166,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(229,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(230,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(236,66): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\jag\source\repos\test\test\main.cpp(237,66): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+main.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_SaveBMP_RW referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_SetWindowTitle referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindowAndRenderer referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "bool __cdecl Render(void)" (?Render@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "void __cdecl Bridge(struct Cell *,struct Cell *)" (?Bridge@@YAXPEAUCell@@0@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderReadPixels referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "bool __cdecl Render(void)" (?Render@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\jag\source\repos\test\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\jag\source\repos\test\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\jag\source\repos\test\x64\Debug\test.exe : fatal error LNK1120: 15 unresolved externals
